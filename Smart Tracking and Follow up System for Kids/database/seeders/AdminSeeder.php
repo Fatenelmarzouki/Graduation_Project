@@ -18,7 +18,7 @@ class AdminSeeder extends Seeder
         DB::table("admins")->insert([
             "email"=> "Faten@admin.com",
             "password"=>bcrypt("456789")
-        ]);
+        ]); 
     }
 }
 //admin1 --------- Rizk@admin.com ----- 123456
